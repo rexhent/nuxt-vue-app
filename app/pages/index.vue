@@ -10,8 +10,6 @@ const name = useState('name')
     <p>Current route: {{ route.path }}</p>
     <a href="https://nuxt.com/docs/getting-started/routing" target="_blank">Learn more about Nuxt Routing</a>
     <br>
-    <NuxtLink to="/blog" >Blog</NuxtLink>
-    <br>
     <Greeting />
     <p>useState out of component: {{ name }}</p>
     

@@ -3,9 +3,14 @@ const count: Ref<number> = ref(0)
 </script>
 <template>
 
-<button @click="count--">-</button>
-<button @click="count = 0">{{ count }}</button>
-<button @click="count++">+</button>
+<div>
+    <button @click="count--">-</button>
+    <button @click="count = 0">{{ count }}</button>
+    <button @click="count++">+</button>
+    <slot />
+</div>
+
+
 
 
 </template>
