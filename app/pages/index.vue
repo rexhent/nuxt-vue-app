@@ -16,6 +16,5 @@ const name = useState('name')
     <p>useState out of component: {{ name }}</p>
     
     <Counter />
-    <Footer />
   </div>
 </template>

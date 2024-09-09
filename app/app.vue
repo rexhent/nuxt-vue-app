@@ -5,5 +5,5 @@
     
   </div>
   <NuxtPage />
-  <!-- <Footer /> -->
+  <Footer />
 </template>
