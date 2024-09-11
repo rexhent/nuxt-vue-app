@@ -1,9 +1,9 @@
 <script setup lang="ts">
 // ref runs on the client. It is the same as the useState hook in react
-const name: Ref<string> = ref("")
+const name: Ref<string> = ref<string>("")
 
 // useState is a Nuxt composable that runs on the server, allowing you to share state in components without a full state management solution
-const userName = useState<string>('name', name.value);
+const userName = useState<string>('name')
 
 watchEffect(() => {
     userName.value = name.value

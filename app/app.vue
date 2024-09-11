@@ -7,3 +7,9 @@
   <NuxtPage />
   <Footer />
 </template>
+
+<style scoped>
+* {
+  font-family: Roboto, sans-serif;
+}
+</style>

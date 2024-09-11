@@ -9,6 +9,17 @@ export default defineNuxtConfig({
     typedPages: true,
   },
 
-  devtools: { enabled: true },
-  modules: ['@unocss/nuxt', '@nuxt/content']
+  devtools: {
+    enabled: true,
+
+    timeline: {
+      enabled: true
+    }
+  },
+  modules: [
+    '@unocss/nuxt',
+    '@nuxt/content',
+    '@nuxt/fonts',
+    '@nuxt/image'
+  ]
 })
