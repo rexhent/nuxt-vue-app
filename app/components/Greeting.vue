@@ -12,7 +12,11 @@ watchEffect(() => {
 </script>
 
 <template>
-    <input v-model="name" />
+    <br>
+    <FloatLabel>
+        <InputText id="username" v-model="name" />
+        <label for="username">Name</label>
+    </FloatLabel>
     <p>Here I'm showing the name in the component. Name: {{ name }}</p>
     <p>useState in component: {{ userName }}</p>
 </template>
