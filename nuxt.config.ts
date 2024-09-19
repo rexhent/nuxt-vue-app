@@ -17,7 +17,6 @@ export default defineNuxtConfig({
       enabled: true
     }
   },
-  hub: {},
   modules: [
     '@unocss/nuxt',
     '@nuxt/content',
@@ -26,13 +25,8 @@ export default defineNuxtConfig({
     '@nuxt/icon',
     '@hebilicious/vue-query-nuxt',
     'nuxt-time',
-    '@nuxtjs/i18n',
     '@pinia/nuxt',
     '@vueuse/nuxt',
-    '@nuxt/test-utils',
-    '@nuxtjs/seo',
-    '@nuxthub/core',
-    '@nuxt/scripts',
     '@primevue/nuxt-module'
   ],
   primevue: {

@@ -56,7 +56,7 @@ const { data } = await useFetch('/api/hello')
     <pre>{{ data?.hello }}</pre>
     <pre>{{ data?.greeting }}</pre>
 
-    <Query />
+    <Query2 />
   </div>
 </template>
 
