@@ -1,5 +1,5 @@
 <script setup>
-const links = [["/", "Home"], ["/blog", "Blog"]]
+const links = [["/", "Home"], ["/blog", "Blog"], ["/microbit", "MicroBit WebUI"]]
 </script>
 <template>
     <div flex="~ row">
